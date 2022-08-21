@@ -19,28 +19,38 @@ footer{
 
 h1{
     font-family: 'Raleway', sans-serif;
-    color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em
+    color: #FFFFFF; text-shadow: darkslategray 0.1em 0.1em 0.2em
 }
 
-p{
-    color: white;
+.subtitulo{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: start;
+    color: white;
+}
+
+.imagen-jane-goodall-y-textura-hojas{
+
 }
 
 .imagen-textura-hojas { /* Imagen de Textura de Hojas */
     opacity: 0.5; /* Opacidad de la imagen */
 }
 
-.enlace-pagina-instituto{
-    font-family: 'Raleway', sans-serif;
-}
-
 .parrafo-biografia{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
     color: #414E3B;
-    border-style: dashed;
+    border-style:dashed;
 }
 
 .cita-jane{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
     color: #414E3B;
+}
+
+.enlace-pagina-instituto{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
 }
