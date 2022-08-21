@@ -1,12 +1,12 @@
 body{
     /*background-color: #677359;*/
-    
+    background-color: #82927A;
 }
 
 header{
     width: 100%;
     height: 10%;
-    background-color: #DCDCDC;
+    background-color: #82927A;
 }
 
 main{
@@ -19,11 +19,28 @@ footer{
 
 h1{
     font-family: 'Raleway', sans-serif;
-    color: #677359;
+    color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em
 }
 
-p2{ /*para citar porque es Handwriting Type*/
-    font-family: 'Imperial Script', cursive;
-
+p{
+    color: white;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.imagen-textura-hojas { /* Imagen de Textura de Hojas */
+    opacity: 0.5; /* Opacidad de la imagen */
+}
+
+.enlace-pagina-instituto{
+    font-family: 'Raleway', sans-serif;
+}
+
+.parrafo-biografia{
+    color: #414E3B;
+    border-style: dashed;
+}
+
+.cita-jane{
+    color: #414E3B;
 }
