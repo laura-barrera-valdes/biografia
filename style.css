@@ -5,7 +5,6 @@
 body{
     /*background-color: #677359;*/
     background-color: #82927A;
-    margin: 0;
 }
 
 header{
@@ -23,6 +22,7 @@ main{
 
 footer{
     background-color: #677359;
+    padding: 25px;
 }
 
 .linea{
@@ -51,18 +51,14 @@ h1{
 .rounded{/*recorte de img contacto*/
     border-radius: 100%;
 }
-/*
-.imagen-jane-goodall-y-textura-hojas{
-
-}*/
 
 #botones {
     /*
     justify-content:end;
     align-items: flex-end;
     */
-    padding: 0 100px;
-    
+    margin-left: 427px;
+    padding: 12px;
   }
 
 .imagen-textura-hojas { /* Imagen de Textura de Hojas */
@@ -92,12 +88,13 @@ h1{
 
 .cuadrado {
     width: 814px; 
-    height: 182px;
+    height: 150px;
     background: #414E3B;
+    padding-top: 32px;
 }
 
 .oval-half-red {
-     width: 675px;
+     width: 710px;
      height: 100px;
      border-top-left-radius: 100px;
      border-top-right-radius: 100px;
@@ -111,7 +108,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #414E3B;
-    padding-top: 50px;
+    padding-top: 33px;
     padding-right: 50px;
     padding-bottom: 10px;
     padding-left: 50px;
