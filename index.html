@@ -23,38 +23,45 @@
     <header>
         <div class="linea">
         </div>
-        <h1 class="titulo">Biografía de Jane Goodall</h1>
-        <p class="subtitulo">Etóloga</p>
-        <a href="https://www.facebook.com/janegoodall">
-            <img src="image/logo-facebook.png" width="22" height="22">
-        </a>
-        <a href="https://instagram.com/janegoodallinst?igshid=ZDg1NjBiNjg=">
-            <img src="image/logo-instagram.png" width="22" height="22">
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=573186909991&text=Hola">
-            <img src="/image/icono-contacto.png" class="rounded" width="22" height="22">
-        </a>
+        <div class="textos-header">
+            <h1 class="titulo">Biografía de Jane Goodall</h1>
+            <p class="subtitulo">Etóloga</p>
+        </div>
+        <div id="botones">
+            <a href="https://www.facebook.com/janegoodall" target="_blank">
+            <img src="image/logo-facebook.png" width="22" height="22" alt="Foto del logo de Facebook.">
+            </a>
+            <a href="https://instagram.com/janegoodallinst?igshid=ZDg1NjBiNjg=" target="_blank">
+            <img src="image/logo-instagram.png" width="22" height="22" alt="Foto del logo de Instagram.">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=573186909991&text=Hola" target="_blank">
+            <img src="/image/icono-contacto.png" class="rounded" width="22" height="22" alt="Icono de contacto.">
+            </a>
+        </div>
     </header>
     <main>
         <!-- article de la IZQUIERDA -->
         <article class="imagen-jane-goodall-y-textura-hojas">
-            <figure class="imagen-jane-goodall">
-                <img src="https://kgl.com.my/wp-content/uploads/2018/02/dr-jane-goodall-dbe-244x244.png" alt="Foto de Jane Goodall sonriendo.">
-            </figure>
-            <figure class="imagen-textura-hojas">
-                <img src="https://img.freepik.com/foto-gratis/fondo-textura-hoja-verde_501050-120.jpg?w=2000" alt="Textura de hojas.">
+            <figure class="imagen-textura-hojas" style="position: relative;">
+                <img src="https://img.freepik.com/foto-gratis/fondo-textura-hoja-verde_501050-120.jpg?w=2000" width="659" height="692" alt="Foto de textura de hojas.">
+                <figure class="imagen-jane-goodall" style="position: absolute; ">
+                    <img src="https://kgl.com.my/wp-content/uploads/2018/02/dr-jane-goodall-dbe-244x244.png" width="659" height="602" alt="Foto de Jane Goodall sonriendo.">
+                </figure>
             </figure>
         </article>
         <!-- article de la DERECHA -->
         <article class="informacion-biografia">
             <p class="parrafo-biografia">Jane Goodall nació el 3 de abril de 1934 en <strong>Londres</strong> en el seno de una familia de clase media, criándose en la posguerra en la casa familiar de <strong>Bournemouth</strong>, en el sur de Inglaterra. Allí vivió su infancia y juventud, rodeada de animales y soñando con escribir sobre los animales en África. A los 23 años comenzó a hacer realidad su sueño viajando a Kenia, donde trabajó con el famoso antropólogo <strong>Louis Leakey</strong>, hasta que éste la envió en 1960 a <strong>Gombe</strong>, Tanzania, con la arriesgada misión de investigar por primera vez a los <strong>chimpancés salvajes</strong> de la zona. Con la sola compañía de su madre y un cocinero, plantó su tienda en la selva y comenzó su proyecto de investigación que duraría en teoría 6 meses, y que continúa en el presente tras más de 6 décadas, de la mano de investigadores y asistentes del IJG.</p>
-            <p class="cita-jane" style="font-style: italic;">“Lo que haces marca la diferencia, y tienes que decidir <strong>qué</strong> tipo de <strong>diferencia quieres marcar</strong>.”</p>
+            <article class="oval-half-red">
+                <p class="cita-jane" style="font-style: italic;">“Lo que haces marca la diferencia, y tienes que decidir <strong>qué</strong> tipo de <strong>diferencia quieres marcar</strong>.”</p>
+                <p class="iniciales-cita">-JG</p>
+            </article>
         </article>
         <!-- escribo img y en "" escribo el enlace de la img -->
         <!-- en alt="" escribo la descripción de la img para personas invidentes -->
     </main>
     <footer>
-        <p class="enlace-pagina-instituto" style="font-style: italic;">Enlace a la <a href="https://janegoodall.es/es/">página del Instituto Jane Goodall</a>.</p>
+        <p class="enlace-pagina-instituto" style="font-style: italic;">Enlace a la <a href="https://janegoodall.es/es/" target="_blank">página del Instituto Jane Goodall</a>.</p>
     </footer>
   
 </body>

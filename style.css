@@ -13,10 +13,12 @@ header{
     height: 10%;
     background-color: #82927A;
     padding: 2%;
+    display: flex;
 }
 
 main{
     background-color: #FFFFFF;
+    display: flex;
 }
 
 footer{
@@ -46,29 +48,71 @@ h1{
     font-size: 25px;
 }
 
-.rounded{
+.rounded{/*recorte de img contacto*/
     border-radius: 100%;
 }
-
+/*
 .imagen-jane-goodall-y-textura-hojas{
 
-}
+}*/
+
+#botones {
+    /*
+    justify-content:end;
+    align-items: flex-end;
+    */
+    padding: 0 100px;
+    
+  }
 
 .imagen-textura-hojas { /* Imagen de Textura de Hojas */
     opacity: 0.5; /* Opacidad de la imagen */
 }
 
+.imagen-jane-goodall{
+    /*opacity: 100;*/
+    top: 0;
+}
+
 .parrafo-biografia{
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #414E3B;
     border-style:dashed;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.oval-half-red {
+     width: 675px;
+     height: 180px;
+     border-top-left-radius: 100px;
+     border-top-right-radius: 100px;
+     border-bottom-right-radius: 100px;
+     background: #FFFFFF;
+     border: 3px solid #555;
 }
 
 .cita-jane{
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #414E3B;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.iniciales-cita{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-align:end;
+    color: #414E3B;
+    padding-right: 90px;
 }
 
 .enlace-pagina-instituto{
